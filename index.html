@@ -324,7 +324,7 @@ function draw(p,sp,bal,CT){
   var yy=[1972,1987,2000,2008,2020];
   for(i=0;i<yy.length;i++)x.fillText(yy[i],X(yy[i]-Y0),h-5);
 }
-var LIFF_ID='YOUR_LIFF_ID';
+var LIFF_ID='2011706256-qdAzjSsn';
 (function(){
   try{
     liff.init({liffId:LIFF_ID}).then(function(){
@@ -378,6 +378,9 @@ function share(){
     if(!liff.isApiAvailable('shareTargetPicker')){alert('แชร์ได้เฉพาะเมื่อเปิดผ่าน LINE');return;}
     liff.shareTargetPicker([flex()]).then(function(r){if(r)alert('ส่งเรียบร้อย');});
   }catch(e){alert('แชร์ได้เฉพาะเมื่อเปิดผ่าน LINE');}
+}
+function money(x) {
+  return '$' + x.toLocaleString('en-US', {maximumFractionDigits: 0});
 }
 $('rebal').onchange=run;
 $('thr').onchange=run;
