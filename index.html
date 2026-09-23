@@ -165,25 +165,6 @@ var W={},cur='60/40 คลาสสิก',N=Y1-Y0+1,LAST=null;
 
 function $(id){return document.getElementById(id);}
 function f(x,d){return x.toFixed(d===undefined?1:d);}
-function money(x){return '
-
-## เช็กก่อน Commit ทุกครั้ง
-
-| เช็ก | ค่าที่ถูก |
-|---|---|
-| จำนวนบรรทัด | ประมาณ **330+** (เดิมได้แค่ 244 = ขาด) |
-| บรรทัดสุดท้าย | `</html>` |
-| ขนาดไฟล์ | ประมาณ **20 KB** ขึ้นไป |
-
-**ถ้าวางแล้วยังถูกตัด** ให้ลองวิธีนี้แทน: วางครึ่งแรก (ถึง `</body>` ไม่ถึง) → Commit → กดดินสอเข้าไปใหม่ → เลื่อนไปท้ายไฟล์ → วางครึ่งหลังต่อ → Commit อีกที
-
-## หลัง Commit
-
-รอ 1-2 นาที → กด `Ctrl+Shift+R` → ต้องเห็น **chip 7 อัน** ด้านบน และ **สไลเดอร์ 8 แถว** ปรับได้ทันที กราฟขึ้นเส้นเขียว/น้ำเงิน/ส้ม
-
-รอบนี้ผมเลี่ยง syntax สมัยใหม่ทั้งหมด (arrow function, spread, template literal) เปลี่ยนเป็น `function` ธรรมดา — ทนต่อ WebView เก่าใน LINE ได้ดีกว่ามากด้วยครับ
-
-ลองดูแล้วบอกจำนวนบรรทัดที่ได้หน่อยครับ จะได้รู้ว่าครบหรือยัง+Math.round(x).toLocaleString();}
 function cls(x){return x>0?'pos':(x<0?'neg':'');}
 
 function series(w,rebal){
