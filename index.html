@@ -367,7 +367,21 @@ function flex(){
       {type:'text',text:pass+' / 8 วิกฤต',size:'xxl',color:'#FFFFFF',weight:'bold'},
       {type:'text',text:'1972-2024',size:'xxs',color:'#9AA3B2'}
     ]},
-    body:{type:'box',layout:'vertical',paddingAll:'14px',contents:body},
+    body:{type:'box',layout:'vertical', 
+    "contents": [
+      {
+        "type": "text",
+        "text": "กดเพื่อดูข้อมูลวิกฤต 8 รอบ (ค.ศ. 1972-2024)",
+        "weight": "bold",
+        "wrap": true
+      }
+    ],
+    "action": {
+      "type": "uri",
+      "label": "Open LIFF",
+      "uri": "https://liff.line.me/2011706256-qdAzjSsn"
+    },
+          paddingAll:'14px',contents:body},
     footer:{type:'box',layout:'vertical',contents:[
       {type:'text',text:'เพื่อการศึกษา ผลในอดีตไม่รับประกันอนาคต',size:'xxs',color:'#AAAAAA',align:'center',wrap:true}
     ]}
