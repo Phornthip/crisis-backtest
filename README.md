@@ -33,9 +33,3 @@ My goal is to bridge the gap between high-performance software architecture and 
 ### 📊 Featured Projects (Coming Soon)
 - 📈 **Portfolio-Backtesting-Engine:** A simulation tool demonstrating Asset Allocation strategies (e.g., 80/20 vs S&P 500) incorporating historical data, CAGR, and Drawdown analysis.
 - ⚡ **Market-Data-Fetcher:** An automated pipeline for retrieving and standardizing daily stock market data.
-
----
-
-### 📫 Let's Connect!
-- **LinkedIn:** [linkedin.com/in/your-profile-link](#) *(Don't forget to update this link!)*
-- **Email:** your.professional.email@gmail.com
